@@ -7,7 +7,7 @@ namespace kpo.Entity
 {
     public class Timetable
     {
-        public int TimetableID;
+        public int TimetableID { get; set; }
         public DateTime TimeFrom { get; set; }
         public DateTime TimeTo { get; set; }
         public string Discription { get; set; }
