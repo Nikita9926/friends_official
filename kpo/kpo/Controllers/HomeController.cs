@@ -10,11 +10,11 @@ namespace kpo.Controllers
     public class HomeController : Controller
     {
         
-        public ActionResult Index()
+        public ActionResult SignIn()
         {
             return View();
         }
-        public ActionResult Contact()
+        public ActionResult SignUp()
         {
             return View();
         }
@@ -22,6 +22,25 @@ namespace kpo.Controllers
         {
             return View();
         }
-
+        public ActionResult HomePage()
+        {
+            return View();
+        }
+        public ActionResult YourProfile()
+        {
+            return View();
+        }
+        public ActionResult Friends()
+        {
+            return View();
+        }
+        public ActionResult Calendar()
+        {
+            return View();
+        }
+        public ActionResult Profile()
+        {
+            return View();
+        }
     }
 }
