@@ -22,6 +22,10 @@ namespace kpo.Controllers
         {
             return View();
         }
+        public ActionResult HomePage()
+        {
+            return View();
+        }
 
     }
 }
