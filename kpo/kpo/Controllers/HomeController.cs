@@ -10,11 +10,11 @@ namespace kpo.Controllers
     public class HomeController : Controller
     {
         
-        public ActionResult Index()
+        public ActionResult SignIn()
         {
             return View();
         }
-        public ActionResult Contact()
+        public ActionResult SignUp()
         {
             return View();
         }
