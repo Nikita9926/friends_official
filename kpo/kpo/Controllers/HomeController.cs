@@ -26,6 +26,9 @@ namespace kpo.Controllers
         {
             return View();
         }
-
+        public ActionResult YourProfile()
+        {
+            return View();
+        }
     }
 }
