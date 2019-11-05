@@ -30,5 +30,9 @@ namespace kpo.Controllers
         {
             return View();
         }
+        public ActionResult Friends()
+        {
+            return View();
+        }
     }
 }
