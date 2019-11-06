@@ -39,15 +39,16 @@
         <div>
             <ul class="nav navbar-nav" style="float: right">
                 <li class=" active"><a href=" #">Домашняя страница</a></li>
-                <li><a href=" ~/Home/YourProfile">Профиль</a></li>
-                <li><a href="#">Календарь</a></li>
+                <li><a href=" ~/Home/Profile">Профиль</a></li>
+                <li><a href="~/Home/Calendar">Календарь</a></li>
                 <li><a href=" ~/Home/Friends">Друзья</a></li>
-
-            <ul class="nav navbar-nav">
-                <li class=" active"><a href=" #">Домашняя страница</a></li>
-                <li><a href=" ~/Home/Friends">Друзья</a></li>
-                <li><a href=" ~/Home/YourProfile">Профиль</a></li>
-
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Настройки</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="~/Home/YourProfile">Изменить профиль</a>
+                        <a class="dropdown-item" href="#">Оповещения</a>
+                    </div>
+                </li>
                 <li><a href="~/Home/SignIn">Выход</a></li>
             </ul>
         </div>
