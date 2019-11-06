@@ -60,7 +60,7 @@
     <!-- Yandex.Metrika counter -->
 
     <script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function () { try { w.yaCounter39705265 = new Ya.Metrika({ id: 39705265, clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: true }); } catch (e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script> <noscript><div><img src="https://mc.yandex.ru/watch/39705265" style="position:absolute; left:-9999px;" alt="Yandex.Metrika" /></div></noscript> <!-- /Yandex.Metrika counter -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" >
         <a class="navbar-brand mr-auto mr-lg-0" href="~/Home/About">Friends</a>
         <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
             <span class="navbar-toggler-icon"></span>
@@ -68,11 +68,10 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="~/Home/Calendar">Расписание <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="~/Home/Calendar">Календарь <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Уведомления</a>
-                    <a class="nav-link" href="~/Home/Friends">Уведомления</a>
+                    <a class="nav-link" href="~/Home/Friends">Друзья</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="~/Home/Profile">Профиль</a>
@@ -81,7 +80,6 @@
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Настройки</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
                         <a class="dropdown-item" href="~/Home/YourProfile">Изменить профиль</a>
-                        <a class="dropdown-item" href="#">Оповещения</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -107,9 +105,9 @@
                                     </div>
                                 </div>
                                 <div class="userData ml-3">
-                                    <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a href="javascript:void(0);">Some Name</a></h2>
-                                    <h6 class="d-block"><a href="javascript:void(0)">1,500</a> Video Uploads</h6>
-                                    <h6 class="d-block"><a href="javascript:void(0)">300</a> Blog Posts</h6>
+                                    <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a href="javascript:void(0);">Никита</a></h2>
+                                    <h6 class="d-block"><a href="javascript:void(0)">1,500</a> Количество друзей</h6>
+                                    <h6 class="d-block"><a href="javascript:void(0)">300</a> Количество Друзей онлайн</h6>
                                 </div>
                                 <div class="ml-auto">
                                     <input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Discard Changes" />
@@ -129,68 +127,61 @@
                                 </ul>
                                 <div class="tab-content ml-1" id="myTabContent">
                                     <div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
-
-
                                         <div class="row">
                                             <div class="col-sm-3 col-md-2 col-5">
-                                                <label style="font-weight:bold;">Full Name</label>
+                                                <label style="font-weight:bold;">Фамилия</label>
                                             </div>
                                             <div class="col-md-8 col-6">
                                                 Nikita
                                             </div>
                                         </div>
-                                        <hr />
-
+                                      
                                         <div class="row">
                                             <div class="col-sm-3 col-md-2 col-5">
-                                                <label style="font-weight:bold;">Birth Date</label>
+                                                <label style="font-weight:bold;">Дата рождения</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                                March 22, 1994.
-                                            </div>
-                                        </div>
-                                        <hr />
-
-
-                                        <div class="row">
-                                            <div class="col-sm-3 col-md-2 col-5">
-                                                <label style="font-weight:bold;">Something</label>
-                                            </div>
-                                            <div class="col-md-8 col-6">
-                                                Something
+                                                Сентябрь 26, 1999.
                                             </div>
                                         </div>
                                         <hr />
                                         <div class="row">
                                             <div class="col-sm-3 col-md-2 col-5">
-                                                <label style="font-weight:bold;">Something</label>
+                                                <label style="font-weight:bold;">Почта</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                                Something
+                                                mygmail@gmail.com
                                             </div>
                                         </div>
                                         <hr />
                                         <div class="row">
                                             <div class="col-sm-3 col-md-2 col-5">
-                                                <label style="font-weight:bold;">Something</label>
+                                                <label style="font-weight:bold;">ID пользователя</label>
                                             </div>
                                             <div class="col-md-8 col-6">
-                                                Something
+                                                453543
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+                                            <div class="col-sm-3 col-md-2 col-5">
+                                                <label style="font-weight:bold;">Адрес</label>
+                                            </div>
+                                            <div class="col-md-8 col-6">
+                                                г. Москва, ул. Первомайская, д. 3
                                             </div>
                                         </div>
                                         <hr />
 
                                     </div>
                                     <div class="tab-pane fade" id="connectedServices" role="tabpanel" aria-labelledby="ConnectedServices-tab">
-                                        Facebook, Google, Twitter Account that are connected to this account
+                                        Facebook, Google, Twitter аккаунты, которые вы хотите прикрепить к данному аккаунту.
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
             </div>
         </div>

@@ -247,8 +247,6 @@ C:\Users\HP\Desktop\friends_official\friends_official\kpo\kpo\obj\Debug\kpo.cspr
 C:\Users\HP\Desktop\friends_official\friends_official\kpo\kpo\obj\Debug\kpo.csproj.CopyComplete
 C:\Users\HP\Desktop\friends_official\friends_official\kpo\kpo\obj\Debug\kpo.dll
 C:\Users\HP\Desktop\friends_official\friends_official\kpo\kpo\obj\Debug\kpo.pdb
-<<<<<<< Updated upstream
-=======
 C:\Users\Acer\Desktop\kpo\kpo\bin\kpo.dll.config
 C:\Users\Acer\Desktop\kpo\kpo\bin\kpo.dll
 C:\Users\Acer\Desktop\kpo\kpo\bin\kpo.pdb
@@ -332,4 +330,3 @@ C:\Users\Acer\Desktop\kpo\kpo\obj\Debug\kpo.csproj.CoreCompileInputs.cache
 C:\Users\Acer\Desktop\kpo\kpo\obj\Debug\kpo.csproj.CopyComplete
 C:\Users\Acer\Desktop\kpo\kpo\obj\Debug\kpo.dll
 C:\Users\Acer\Desktop\kpo\kpo\obj\Debug\kpo.pdb
->>>>>>> Stashed changes
