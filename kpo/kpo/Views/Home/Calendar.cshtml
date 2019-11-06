@@ -19,12 +19,6 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
-
-
-
-
-
-
     <script src='~/Calendar.js'></script>
 
 
@@ -216,25 +210,25 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="~/Home/Calendar">Расписание <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="~/Home/Calendar">Расписание <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Уведомления</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="~/Home/Profile">Профиль</a>
+                    <a class="nav-link active" href="~/Home/Profile">Профиль</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Настройки</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="~/Home/YourProfile">Изменить профиль</a>
+                        <a class="dropdown-item" href="#">Оповещения</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="~/Home/SignIn">Выход</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
+
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="text" placeholder="Поиск" aria-label="Поиск">
