@@ -1,7 +1,7 @@
 ﻿@{
     /**/
 
-    Layout =null;
+    Layout = null;
 }
 <!doctype html>
 <html lang="ru">
@@ -72,9 +72,10 @@
         <div>
             <ul class="nav navbar-nav" style="float: right">
                 <li><a href=" ~/Home/HomePage">Домашняя страница</a></li>
-                <li class=" active"><a href=" #">Профиль</a></li>
+                <li ><a href="~/Home/Profile ">Профиль</a></li>
                 <li><a href="#">Календарь</a></li>
                 <li><a href=" ~/Home/Friends">Друзья</a></li>
+                <li class="active"><a href=" #">Настройки</a></li>
                 <li><a href="~/Home/SignIn">Выход</a></li>
             </ul>
         </div>
@@ -86,78 +87,78 @@
             <h1>Это вы</h1>
             <p class="lead">Расскажите о себе!</p>
         </div>
-            <div class="col-md-8 order-md-1">
-                <h4 class="mb-3">Ваши данные</h4>
-                <form class="needs-validation" novalidate>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="firstName">Имя</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="Имя" value="" required>
-                            <div class="invalid-feedback">
-                                Заполнение этого поля обязательно.
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="lastName">Фамилия</label>
-                            <input type="text" class="form-control" id="lastName" placeholder="Фамилия" value="" required>
-                            <div class="invalid-feedback">
-                                Заполнение этого поля обязательно.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="username">Имя пользователя</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text">@@</span>
-                            </div>
-                            <input type="text" class="form-control" id="username" placeholder="Username" required>
-                            <div class="invalid-feedback" style="width: 100%;">
-                                Заполнение этого поля обязательно.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="email">Email <span class="text-muted">(Optional)</span></label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Ваши данные</h4>
+            <form class="needs-validation" novalidate>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstName">Имя</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Имя" value="" required>
                         <div class="invalid-feedback">
-                            Пожалуйста, оставьте дейсвующий e-mail адрес.
+                            Заполнение этого поля обязательно.
                         </div>
                     </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="lastName">Фамилия</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Фамилия" value="" required>
+                        <div class="invalid-feedback">
+                            Заполнение этого поля обязательно.
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="mb-3">
-                        <label for="address">Адрес</label>
-                        <input type="text" class="form-control" id="address" placeholder="ул. Первомайская, д. 3" required>
+                <div class="mb-3">
+                    <label for="username">Имя пользователя</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">@@</span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username" required>
+                        <div class="invalid-feedback" style="width: 100%;">
+                            Заполнение этого поля обязательно.
+                        </div>
                     </div>
+                </div>
 
-                    <div class="row">
-                        <div class="col-md-5 mb-3">
-                            <label for="country">Страна</label>
-                            <select class="custom-select d-block w-100" id="country" required>
-                                <option value="">Выбрать</option>
-                                <option>Россия</option>
-                            </select>
-                        </div>
-                        <div class="col-md-4 mb-3">
-                            <label for="state">Город</label>
-                            <select class="custom-select d-block w-100" id="state" required>
-                                <option value="">Выбрать</option>
-                                <option>Москва</option>
-                            </select>
-                        </div>
+                <div class="mb-3">
+                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                        Пожалуйста, оставьте дейсвующий e-mail адрес.
                     </div>
-                    <hr class="mb-4">
-                 
-                    <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="save-info">
-                        <label class="custom-control-label" for="save-info">Показывать информацию другим пользователям</label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="address">Адрес</label>
+                    <input type="text" class="form-control" id="address" placeholder="ул. Первомайская, д. 3" required>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 mb-3">
+                        <label for="country">Страна</label>
+                        <select class="custom-select d-block w-100" id="country" required>
+                            <option value="">Выбрать</option>
+                            <option>Россия</option>
+                        </select>
                     </div>
-                    <button class="btn btn-primary btn-lg btn-block" type="submit">Сохранить изменения</button>
-                </form>
-            </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="state">Город</label>
+                        <select class="custom-select d-block w-100" id="state" required>
+                            <option value="">Выбрать</option>
+                            <option>Москва</option>
+                        </select>
+                    </div>
+                </div>
+                <hr class="mb-4">
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="save-info">
+                    <label class="custom-control-label" for="save-info">Показывать информацию другим пользователям</label>
+                </div>
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Сохранить изменения</button>
+            </form>
         </div>
+    </div>
     <div>
         <footer class="my-5 pt-5 text-muted text-center text-small">
             <p class="mb-1">&copy; 2019 Friends</p>

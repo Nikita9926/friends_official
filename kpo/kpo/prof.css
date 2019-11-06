@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-    color: #fff;
+    color: #17806d;
 }
 
 /* Custom default button */
@@ -15,8 +15,8 @@ a:hover {
 .btn-secondary:focus {
     color: #333;
     text-shadow: none; /* Prevent inheritance from `body` */
-    background-color: #fff;
-    border: .05rem solid #fff;
+    background-color: #17806d;
+    border: .05rem solid #17806d;
 }
 
 
@@ -27,13 +27,13 @@ a:hover {
 html,
 body {
     height: 100%;
-    background-color: #333;
+    background-color: #17806d;
 }
 
 body {
     display: -ms-flexbox;
     display: flex;
-    color: #fff;
+    color: #17806d;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
@@ -73,7 +73,7 @@ body {
 
 .nav-masthead .active {
     color: #fff;
-    border-bottom-color: #fff;
+    border-bottom-color: #17806d;
 }
 
 @media (min-width: 48em) {
