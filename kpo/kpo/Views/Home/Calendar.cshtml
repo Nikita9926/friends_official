@@ -200,11 +200,8 @@
                     }
                 ],
             });
-
-
         });
-
-
+       
     </script>
 
 </head>
@@ -218,13 +215,13 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="~/Home/Calendar">Календарь <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="~/Home/Calendar">Календарь <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="~/Home/Profile">Профиль</a>
+                    <a class="nav-link" href="~/Home/YourProfile">Профиль</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="~/Home/Friends">Друзья</a>
+                    <a class="nav-link active" href="~/Home/Friends">Друзья</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="~/Home/SignIn">Выход</a>
@@ -243,6 +240,11 @@
         </div>
     </nav>
     <div id='calendar'></div>
+
+    <div class=" row">
+      <button class="btn btn-primary btn-lg col-lg-offset-9" type="submit" style="float: left">Создать встречу</button>
+    </div>
+    <br>
 </body>
 
 </html>
